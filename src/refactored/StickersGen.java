@@ -1,3 +1,4 @@
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
@@ -47,7 +48,9 @@ public class StickersGen {
         graphics.drawString("IMDB: 8,6", 100, novaAltura - 100);
 
         // salvar a nova imagem em arquivo
-        ImageIO.write(novaImagem, "png", new File("../saida/" + nomeDoArquivo + "_poster.png"));
+        // ImageIO.write(novaImagem, "png", new File("../../saida/" + nomeDoArquivo +
+        // "_poster.png"));
+        ImageIO.write(novaImagem, "png", new File(nomeDoArquivo));
     }
 
     // Teste

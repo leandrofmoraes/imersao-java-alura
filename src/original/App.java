@@ -42,10 +42,13 @@ public class App {
 
         StickersGen sticker = new StickersGen();
 
-        for (Map<String, String> filme : listaDeFilmes) {
+        for (int i = 0; i < 10; i++) {
+            Map<String, String> filme = listaDeFilmes.get(i);
 
             String titulo = filme.get("title");
-            String urlImagem = filme.get("image");
+
+            // String urlImagem = filme.get("image");
+            String urlImagem = filme.get("image").replaceAll("(@+)(.*).jpg$", "$1.jpg");
 
             InputStream inputStream = new URL(urlImagem).openStream();
 
