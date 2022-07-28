@@ -15,7 +15,7 @@ import javax.imageio.ImageIO;
  */
 public class StickersGen {
 
-    public void criarImagem(InputStream inputStream, String nomeDoArquivo) throws Exception {
+    public void criarImagem(InputStream inputStream, String nomeDoArquivo, String frase) throws Exception {
 
         // leitura de imagem
 
@@ -42,10 +42,10 @@ public class StickersGen {
         graphics.drawImage(imagemOriginal, 0, 0, null);
 
         // escrever uma frase na nova imagem
-        var fonte = new Font(Font.SANS_SERIF, Font.BOLD, 64);
+        var fonte = new Font(Font.SANS_SERIF, Font.BOLD, 32);
         graphics.setFont(fonte);
         graphics.setColor(Color.YELLOW);
-        graphics.drawString("IMDB: 8,6", 100, novaAltura - 100);
+        graphics.drawString(frase, 100, novaAltura - 100);
 
         // salvar a nova imagem em arquivo
         // ImageIO.write(novaImagem, "png", new File("../../saida/" + nomeDoArquivo +

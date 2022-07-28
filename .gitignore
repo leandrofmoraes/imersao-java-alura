@@ -1,4 +1,31 @@
-/entrada
-/saida
 .vscode
 *.class
+
+# Incluídos 
+linguagens-api/*
+!/linguagens-api/src/
+linguagens-api/src/*
+!/linguagens-api/src/main/
+linguagens-api/src/main/*
+!/linguagens-api/src/main/java/
+linguagens-api/src/main/java/*
+!/linguagens-api/src/main/java/br/
+linguagens-api/src/main/java/br/*
+!/linguagens-api/src/main/java/br/com/
+linguagens-api/src/main/java/br/com/*
+!/linguagens-api/src/main/java/br/com/alura/
+linguagens-api/src/main/java/br/com/alura/*
+!/linguagens-api/src/main/java/br/com/alura/linguagens/
+!/linguagens-api/pom.xml
+alura-stickers/*
+!/alura-stickers/src
+# bin
+# entrada
+# lib
+# saida
+# src
+# HELP.md
+# mvnw
+# mvnw.cmd
+# pom.xml
+# target
