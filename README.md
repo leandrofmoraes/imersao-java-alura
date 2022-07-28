@@ -1,5 +1,9 @@
-# alura-stickers
+# Imersão Java Alura
 
-Este repositório contém código das aulas da Imersão Java da Alura.
+(PT-Br)
+Projeto criado durante as aulas da Imersão Java da Alura.
+==================
+(Eng)
+Project carried out at Alura's Java Immersion (intensive java course)
 
-=======
+Obs: Readme em construção.
