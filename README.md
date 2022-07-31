@@ -13,7 +13,7 @@ Consumir uma API do site IMDb e separar em conteúdos:
 - [x] Exibir Titulo, imagem e IMDb Rating na tela;
 
 <p align="left">
-<img src="https://github.com/leandrofmoraes/imersao-java-alura/imagens/IMDb-api-alura-stickers.png" align="right" width="400px">
+<img src="https://github.com/leandrofmoraes/imersao-java-alura/blob/master/imagens/IMDb-api-alura-stickers.png" align="right" width="400px">
 </p>
 
 _____________________
