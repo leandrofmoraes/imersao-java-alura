@@ -18,9 +18,9 @@ public class ExtratorDeConteudoIMDb implements ExtratorDeConteudos {
         // popular (preencher) a lista de conteudos
         for (Map<String, String> atributo : listaDeAtributos) {
 
-            String titulo = atributos.get("title");
-            String urlImagem = atributos.get("image").replaceAll("(@+)(.*).jpg$", "$1.jpg");
-            String nota = atributos.get("imDbRating");
+            String titulo = atributo.get("title");
+            String urlImagem = atributo.get("image").replaceAll("(@+)(.*).jpg$", "$1.jpg");
+            String nota = atributo.get("imDbRating");
             var conteudo = new Conteudo(titulo, urlImagem, nota);
             conteudos.add(conteudo);
         }
