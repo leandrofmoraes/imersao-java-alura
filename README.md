@@ -45,7 +45,7 @@ Criar nossa própria API e Web Service, que pode ser consumida com o código esc
 - [x] Uso do PostMan para inserir dados;
 
 <p align="left">
-<img src="https://github.com/leandrofmoraes/imersao-java-alura/imagens/VsCode-Java-Spring_5.png" width="800px">
+<img src="https://github.com/leandrofmoraes/imersao-java-alura/blob/master/imagens/VsCode-Java-Spring_5.png" width="800px">
 </p>
 
 _____________________
