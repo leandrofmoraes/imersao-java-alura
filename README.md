@@ -3,7 +3,7 @@
 #### Resumo
 _____________________
  
-##### - Aula 01 - Consumindo uma API de Filmes com Java
+##### Aula 01 - Consumindo uma API de Filmes com Java
 
 Consumir uma API do site IMDb e separar em conteúdos:
 
@@ -13,11 +13,11 @@ Consumir uma API do site IMDb e separar em conteúdos:
 - [x] Exibir Titulo, imagem e IMDb Rating na tela;
 
 <p align="left">
-<img src="https://github.com/leandrofmoraes/imersao-java-alura/blob/master/imagens/IMDb-api-alura-stickers.png" align="right" width="400px">
+<img src="https://github.com/leandrofmoraes/imersao-java-alura/blob/master/imagens/IMDb-api-alura-stickers.png" width="600px">
 </p>
 
 _____________________
-##### - Aula 02 - Gerando Stickers.
+##### Aula 02 - Gerando Stickers.
 
 Gerar figurinhas a partir de uma imagem do diretório local ou de uma url;
 
@@ -26,7 +26,7 @@ Gerar figurinhas a partir de uma imagem do diretório local ou de uma url;
 - [x] Centralizar um texto na imagem criada;
 _____________________
 
-##### - Aula 03 - Refatoração   
+##### Aula 03 - Refatoração   
 
 Gerar figurinhas a partir de uma imagem de uma url, do site da NASA e do IMDb;
 - [x] Refatorar o código utilizando conceitos de POO e encapsulamento; 
@@ -35,7 +35,7 @@ Gerar figurinhas a partir de uma imagem de uma url, do site da NASA e do IMDb;
 - [x] Aplicar os mesmos passos da aula 02, para criação de Stickers;
 _____________________
 
-##### - Aula 04 - Desenvolvendo uma API com Spring
+##### Aula 04 - Desenvolvendo uma API com Spring
 
 Criar nossa própria API e Web Service, que pode ser consumida com o código escrito nas aulas anteriores.
 
@@ -50,7 +50,7 @@ Criar nossa própria API e Web Service, que pode ser consumida com o código esc
 
 _____________________
 
-##### - Aula 05 - Publicando nossa API no Cloud
+##### Aula 05 - Publicando nossa API no Cloud
 
 Colocar nossa aplicação no ar, fazer um Deploy
 
